@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreMundo - Descubra o Mundo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav>
+            <div class="logo">ExploreMundo</div>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Descubra Lugares Incríveis!</h1>
+            <p>Explore os melhores destinos ao redor do mundo.</p>
+            <button class="btn-orange" onclick="window.location.href='destinos.html'">Saiba Mais</button>
+        </div>
+    </header>
+
+    <section class="destinos">
+        <h2>Destinos Populares</h2>
+        <hr>
+        <div class="cards-container">
+            <div class="card">
+                <img src="praias.jpg" alt="Praias">
+                <h3>Praias Paradisiacas</h3>
+                <p>Conheça as mais belas praias</p>
+            </div>
+            <div class="card">
+                <img src="montanhas.jpg" alt="Montanhas">
+            </div>
+            <div class="card">
+                <img src="cidade-historica.jpg" alt="Cidades Históricas">
+                <h3>Cidades Históricas</h3>
+                <p>Explore a cultura e história</p>
+            </div>
+        </div>
+        <button class="btn-orange" onclick="window.location.href='destinos.html'">Ver Mais Destinos</button>
+    </section>
+
+    <section class="sobre">
+        <h2>Sobre Nós</h2>
+        <hr>
+        <p>Somos apaixonados por viagens e queremos ajudar você a explorar o mundo!</p>
+        <button class="btn-orange">Leia Mais</button>
+    </section>
+
+    <section class="contato-mapa">
+        <div class="col">
+            <h3>Fale Conosco</h3>
+            <hr>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <textarea placeholder="Mensagem"></textarea>
+                <button type="submit" class="btn-blue">Enviar</button>
+            </form>
+        </div>
+        <div class="col">
+            <h3>Onde Estamos</h3>
+            <hr>
+            <div class="map-placeholder">
+                <img src="mapa.png" alt="Mapa">
+            </div>
+            <p>📧 email: contato@exploremundo.com</p>
+            <p>📞 (11) 1234-5678</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExploreMundo - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
